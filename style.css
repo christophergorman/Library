@@ -1,0 +1,49 @@
+body {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    font-size: 26px;
+    font-weight: 600;
+    border: 2px solid rgba(179, 178, 178, .5);
+    background-color: rgba(228, 227, 227,.7);
+    margin-top: 50px;
+    width: 550px;
+    height: 20rem;
+}
+
+form > label {
+    display: flex;
+    justify-content: center;
+   padding: 3px;
+}
+
+form > input {
+    padding: 5px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+
+#new-book-btn {
+    color: white;
+    background-color: blue;
+    font-size: 18px;
+    border-radius: 4px;
+    font-weight: 800;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: none;
+    cursor: pointer;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
